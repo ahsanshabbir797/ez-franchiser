@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="social-links">
+        <a *ngFor="let image of socialImages" href="#"><img [src]=image alt=""></a>
+    </div>
+    <div class="footer-links">
+        <a *ngFor="let link of footerLinks" href="#">{{link}}</a>
+    </div>
+    <div class="rights-info">
+        <img src="../../assets/images/copyright.svg" alt=""><span>2020 EZ Franchise, Pvt. Ltd. All rights reserved.</span>
+    </div>
+</div>
